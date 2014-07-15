@@ -1,0 +1,11 @@
+1. creamos una carpeta llamada bmon
+2. bajamos el archivo fuente de bmon
+3. entras a bmon-2-01
+4. entras dentro de src
+5. modificamos out_curses.c	out_accii.c
+6. buscamos con control + w la palabra interface y rate
+7. las editamos por tarjeta de red 'nombre' - tasa
+8. guardamos los cambios
+9. cd .. para volver a la carpeta anterior
+10. dpkg-builderpackage -us -uc para crear el .deb
+11. e instalar el paquete con dpkg -i nombre del paquete 
